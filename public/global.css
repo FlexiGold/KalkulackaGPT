@@ -64,13 +64,12 @@ button:focus {
 }
 
 .calculator {
-	margin-left: 700px;
-	width: 300px;
-	background-color: #8f0303;
+	width: 250px;
+	margin: 0 auto;
+	border: 2px solid #ccc;
 	border-radius: 5px;
-	padding: 10px;
-	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-	font-family: Arial, sans-serif;
+	overflow: hidden;
+	color: Black;
   }
   
   .display {
@@ -101,11 +100,14 @@ button:focus {
   }
   
   button:hover {
-	background-color: #ccc;
+	background-color: grey;
+	color: black;
+	font-weight: bold;
   }
   
   button:active {
-	background-color: #aaa;
+	background-color: black;
+	color: white;
   }
   
   button:focus {
@@ -119,4 +121,11 @@ button:focus {
   
   button.operator:hover {
 	background-color: #f60;
+  }
+
+  #nadpis {
+	 font-weight: bold;
+	 margin-left: 635px;
+	 margin-top: 100px;
+	 color: #fff;
   }
